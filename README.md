@@ -1,178 +1,756 @@
-# 🔵 Free SOC Analyst & Blue Team Resources, Labs & Roadmap
+# 🛡️ SOC Analyst & Blue Team Roadmap (100% FREE)
 
-A curated, **verified-free** list of platforms, labs, datasets, and a step-by-step checklist to help you break into a **SOC Analyst / Blue Team** role — no paid subscriptions required.
+<div align="center">
 
-> ✅ Every link below was checked as of **July 2026**. Free-tier limits (where they exist) are stated explicitly so you're never surprised by a paywall mid-lab.
+# 🚀 Become a Job-Ready SOC Analyst Using Only Free Resources
 
----
+Learn Linux, Networking, SIEM, Threat Hunting, Incident Response, Digital Forensics, and Blue Team Operations without spending a single dollar.
 
-## 📑 Table of Contents
+![Free](https://img.shields.io/badge/Cost-100%25%20Free-brightgreen?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-SOC%20Analyst-blue?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Blue%20Team-0A66C2?style=for-the-badge)
+![Beginner](https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge)
+![Updated](https://img.shields.io/badge/Updated-July%202026-orange?style=for-the-badge)
 
-- [Linux & Networking Fundamentals](#-linux--networking-fundamentals-free)
-- [Hands-On Labs (Detailed)](#-hands-on-labs-detailed)
-- [Free TryHackMe SOC Room Checklist](#-free-tryhackme-soc-room-checklist-beginner--advanced)
-- [Learning Platforms](#-learning-platforms-free-tiers)
-- [Practice Data & Logs](#️-practice-data--logs)
-- [Blogs & Write-ups](#-blogs--write-ups)
-- [Suggested Learning Path](#️-suggested-learning-path)
-- [Why I Made This](#-why-i-made-this)
-- [Contributing](#-contributing)
+⭐ Star this repository if it helps you.
+
+</div>
 
 ---
 
-## 🐧 Linux & Networking Fundamentals (Free)
+# 📖 About
 
-SOC/blue team work assumes solid Linux command-line and networking fundamentals — build that base before or alongside the SIEM-focused rooms below.
+This repository contains a carefully curated collection of **verified free** resources for anyone preparing for a career as a:
 
-### Linux
-- OverTheWire: Bandit — https://overthewire.org/wargames/bandit/ — free wargame, 30+ progressive levels teaching CLI basics (SSH, permissions, grep/find, cron, basic scripting); no signup, just SSH in with provided creds per level
-- Linux Journey — https://linuxjourney.com/ — free interactive text-based course, grasshopper-to-sysadmin track
-- ExplainShell — https://explainshell.com/ — paste any command and get a breakdown of every flag
+- 🛡️ SOC Analyst
+- 🔵 Blue Team Analyst
+- 🚨 Incident Responder
+- 🔍 Threat Hunter
+- 💻 Security Operations Engineer
 
-### Networking
-- Professor Messer: Network+ (N10-009) Full Course — https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/ — complete free video course covering OSI model, IP addressing/subnetting, routing/switching, wireless, and troubleshooting
-- Practical Networking — https://www.practicalnetworking.net/ — free articles and video series on TCP/IP, subnetting, and routing
-- Cisco NetAcad: Networking Basics — https://www.netacad.com/courses/networking-basics — free, self-paced intro course covering fundamentals, IP addressing, and troubleshooting
-- Subnetting Practice — https://subnettingpractice.com/ — free drills; subnetting math comes up often in interviews
+Whether you're starting from zero or preparing for interviews, this roadmap provides everything you need—from Linux fundamentals to building your own home SOC lab.
 
 ---
 
-## 🧪 Hands-On Labs (Detailed)
+# 🎯 Roadmap
 
-### LetsDefend (https://letsdefend.io/)
-- Free Basic account gives free courses, challenges, and quizzes, plus 15 real SOC alert investigations per month in an actual SIEM-style dashboard
-- You triage real alerts: check logs, pivot on IOCs, decide escalate/close
-- VIP/VIP+ unlock unlimited alerts, more courses, and a career-path certification — but the free 15/month is genuinely enough to build real triage habits
-- Bonus: LetsDefend also maintains a free, open Cybersecurity Resources list on GitHub worth bookmarking
-
-### TryHackMe (https://tryhackme.com/)
-- Free rooms worth doing: SOC Level 1 path (partially free), Intro to SIEM, Wireshark, Investigating Windows
-- Browser-based VMs, no local setup needed
-- See the ordered, free-room checklist below
-
-### CyberDefenders (https://cyberdefenders.org/blue-team-labs/)
-- Free blue team CTF-style challenges using real pcaps, memory dumps, and logs
-- Categories: network forensics, endpoint forensics, malware analysis, threat intel
-- Each challenge has a write-up community so you can compare your approach after solving
-- Fully free to attempt challenges; no paywall on core content
-
-### Blue Team Labs Online / BTLO (https://blueteamlabs.online/)
-- Free tier gives numerous free challenges plus a couple of free "Investigations" (real scenario-based labs) each month
-- Gamified with points, ranks, and leaderboards
-- Unlimited investigations require PRO — but free challenges alone cover phishing analysis, digital forensics, and SOC scenarios
-- Free intro path: Blue Team Junior Analyst Pathway — 6 free courses + certificate of completion
-
-### Security Onion (https://github.com/Security-Onion-Solutions/securityonion)
-- 100% free, open-source network security monitoring + SIEM distro (Suricata, Zeek, Elastic stack bundled in)
-- Best used in a home lab: spin up in VirtualBox/VMware, feed it PCAPs or live traffic from a test network
-- Great for a portfolio project — document your setup, detections, and findings
-
-### Wazuh (https://documentation.wazuh.com/current/quickstart.html)
-- Free, open-source SIEM + XDR platform
-- Install on a VM, connect endpoint agents (Windows/Linux), and practice writing detection rules
-- Good for demonstrating log correlation and alerting skills in your GitHub portfolio
-
-### Bonus: Free Lab-Building Projects
-- DetectionLab (https://github.com/clong/DetectionLab) — scripts to auto-build a Windows AD lab with Splunk + Sysmon pre-configured for detection practice
-- Splunk BOTS v3 (https://github.com/splunk/botsv3) (also v1, v2) — free downloadable datasets simulating real breaches, with guided questions so you can practice hunting in Splunk's free tier
+```text
+🐧 Linux
+      │
+      ▼
+🌐 Networking
+      │
+      ▼
+🔐 Security Fundamentals
+      │
+      ▼
+📊 SIEM & Log Analysis
+      │
+      ▼
+🖥️ Windows & Linux Investigation
+      │
+      ▼
+🌍 Network Traffic Analysis
+      │
+      ▼
+🔍 Threat Hunting
+      │
+      ▼
+🚨 Incident Response
+      │
+      ▼
+🛠️ Build Home Lab
+      │
+      ▼
+💼 Portfolio
+      │
+      ▼
+🎉 SOC Analyst
+```
 
 ---
 
-## ✅ Free TryHackMe SOC Room Checklist (Beginner → Advanced)
+# 📚 Table of Contents
 
-### 1️⃣ Foundations
-- [ ] SOC Role in Blue Team — https://tryhackme.com/room/socroleinblueteam
-- [ ] Defensive Security Intro — https://tryhackme.com/room/defensivesecurityintroqW
-- [ ] Intro to Logs — https://tryhackme.com/room/introtologs
-- [ ] Introduction to SIEM — https://tryhackme.com/room/introtosiem
-
-### 2️⃣ SIEM Tooling
-- [ ] Splunk: Exploring SPL — https://tryhackme.com/room/splunkexploringspl
-
-### 3️⃣ Windows & Linux Log Analysis
-- [ ] Windows Logging for SOC — https://tryhackme.com/room/windowsloggingforsoc
-- [ ] Investigating Windows — https://tryhackme.com/room/investigatingwindows
-- [ ] Investigating Windows 2.0 — https://tryhackme.com/room/investigatingwindows2
-- [ ] Windows Threat Detection 1 — https://tryhackme.com/room/windowsthreatdetection1
-- [ ] Linux Logging for SOC — https://tryhackme.com/room/linuxloggingforsoc
-- [ ] Linux Threat Detection 1 — https://tryhackme.com/room/linuxthreatdetection1
-- [ ] Linux Server Forensics — https://tryhackme.com/room/linuxserverforensics
-
-### 4️⃣ Network Traffic Analysis
-- [ ] Network Traffic Analysis Basics — https://tryhackme.com/room/networktrafficbasics
-- [ ] TShark — https://tryhackme.com/room/tshark
-- [ ] Network Security Essentials — https://tryhackme.com/room/networksecurityessentials
-- [ ] Network Discovery Detection — https://tryhackme.com/room/networkdiscoverydetection
-- [ ] h4cked — https://tryhackme.com/room/h4cked
-- [ ] Event Horizon — https://tryhackme.com/room/eventhorizonroom
-
-### 5️⃣ Endpoint & Memory Forensics
-- [ ] Introduction to EDR — https://tryhackme.com/room/introductiontoedrs
-
-### 6️⃣ Malware Analysis & Threat Hunting
-- [ ] YARA: Threat Hunting with YARA — https://tryhackme.com/room/threathuntingwithyara
-- [ ] File and Hash Threat Intel — https://tryhackme.com/room/fileandhashthreatintel
-- [ ] APT Detection: Volt Typhoon — https://tryhackme.com/room/volttyphoon
-
-### 7️⃣ Incident Response & Alert Triage
-- [ ] IR Playbooks — https://tryhackme.com/room/irplaybooks
-- [ ] SOC L1 Alert Reporting — https://tryhackme.com/room/socl1alertreporting
-- [ ] SOC L1 Alert Triage — https://tryhackme.com/room/socl1alerttriage
-- [ ] Identification & Scoping — https://tryhackme.com/room/identificationandscoping
-- [ ] AppSec IR — https://tryhackme.com/room/appsecir
-- [ ] Detecting Web Attacks — https://tryhackme.com/room/detectingwebattacks
-- [ ] Chaining Vulnerabilities — https://tryhackme.com/room/chainingvulnerabilitiesZp
-
-### 8️⃣ Capstone Challenges
-- [ ] CCT2019 — https://tryhackme.com/room/cct2019
+- Linux Fundamentals
+- Networking Fundamentals
+- Hands-on Labs
+- TryHackMe Learning Path
+- Learning Platforms
+- Practice Logs & Datasets
+- Home Lab
+- Portfolio Projects
+- Suggested Learning Path
+- Job Readiness Checklist
 
 ---
 
-## 📚 Learning Platforms (Free Tiers)
+# 🐧 Linux Fundamentals
 
-- Cybrary — free courses covering SOC fundamentals, incident response, and vulnerability management — https://www.cybrary.it/
-- Cisco NetAcad – Introduction to Cybersecurity — free intro course — https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity
-- Cisco NetAcad – CyberOps Associate prep — free material aligned with the CyberOps Associate cert — https://www.netacad.com/courses/cyberops-associate
-- Professor Messer – Security+ (SY0-701) Full Course — complete free video course — https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/
-- Professor Messer – Network+ (N10-009) Full Course — complete free video course — https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/
-- MITRE ATT&CK — the framework every SOC detection should map to — https://attack.mitre.org/
-- ATT&CK Navigator — visualize and track technique coverage — https://mitre-attack.github.io/attack-navigator/
+## 🎯 Goal
+
+Master Linux command-line skills required by every SOC Analyst.
 
 ---
 
-## 🗂️ Practice Data & Logs
+## 📚 Learning Resources
 
-- Malware-Traffic-Analysis.net — real pcaps with write-ups — https://www.malware-traffic-analysis.net/
-- JPCERT EVTX-ATTACK-SAMPLES — sample Windows Event Logs mapped to attack techniques — https://github.com/JPCERTCC/EVTX-ATTACK-SAMPLES
-- Splunk BOTS v3 Dataset — https://github.com/splunk/botsv3
-- DetectionLab — auto-provisioned AD + Splunk + Sysmon lab environment — https://github.com/clong/DetectionLab
-
----
-
-## 📝 Blogs & Write-ups
-
-- LetsDefend Blog — real investigation write-ups — https://letsdefend.io/blog
-- CyberDefenders Blog — challenge walkthroughs and analysis techniques — https://cyberdefenders.org/blog/
+| Resource | Description | Link |
+|----------|-------------|------|
+| OverTheWire Bandit | Linux command-line wargame | https://overthewire.org/wargames/bandit/ |
+| Linux Journey | Interactive Linux course | https://linuxjourney.com/ |
+| ExplainShell | Explains every Linux command | https://explainshell.com/ |
 
 ---
 
-## 🗺️ Suggested Learning Path
+## ✅ Skills You'll Learn
 
-1. **Linux & Networking Prep** → Bandit + Linux Journey + Professor Messer Network+ (skip if already comfortable with CLI/networking)
-2. **Foundations** → Professor Messer Security+ + Cisco Intro to Cybersecurity
-3. **SIEM Practice** → Work through the TryHackMe checklist above → LetsDefend simulations
-4. **Investigation Skills** → CyberDefenders challenges → BTLO scenarios
-5. **Build Your Own Lab** → Deploy Security Onion, Wazuh, or DetectionLab; simulate attacks, document findings
-6. **Portfolio** → Write up every lab/challenge you complete
+- Linux CLI
+- SSH
+- File Permissions
+- Users & Groups
+- grep
+- awk
+- sed
+- find
+- cron
+- Bash
+- File System
+- Processes
+- System Logs
 
 ---
 
-## 🙋 Why I Made This
+## 🏆 Mini Project
 
-Built while going through my own SOC analyst prep — every resource here is something actually used or vetted.
+✔ Navigate Linux using only the terminal
+
+✔ Search files using grep and find
+
+✔ Connect through SSH
+
+✔ Write basic Bash scripts
 
 ---
 
-## 🤝 Contributing
+# 🌐 Networking Fundamentals
 
-Found a great free resource that's missing, or a link that's gone stale? Open a PR or an issue.
+## 🎯 Goal
+
+Understand how computers communicate across networks.
+
+---
+
+## 📚 Learning Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| Professor Messer Network+ | Complete Networking Course | https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/ |
+| Cisco Networking Basics | Official Cisco Networking Course | https://www.netacad.com/courses/networking-basics |
+| Practical Networking | TCP/IP & Routing Tutorials | https://www.practicalnetworking.net/ |
+| Subnetting Practice | Practice Subnetting | https://subnettingpractice.com/ |
+
+---
+
+## ✅ Skills You'll Learn
+
+- OSI Model
+- TCP/IP
+- IPv4
+- IPv6
+- DNS
+- DHCP
+- HTTP
+- HTTPS
+- FTP
+- SSH
+- SMTP
+- Firewalls
+- NAT
+- VPN
+- Routing
+- Switching
+- VLAN
+- Subnetting
+
+---
+
+## 🏆 Mini Project
+
+✔ Capture packets using Wireshark
+
+✔ Identify HTTP requests
+
+✔ Identify DNS traffic
+
+✔ Calculate subnets
+
+---
+
+# 🧪 Hands-on Labs
+
+> The fastest way to become a SOC Analyst is by investigating real alerts and solving practical challenges.
+
+| Platform | Free Tier | Best For | Link |
+|----------|-----------|----------|------|
+| LetsDefend | ✅ 15 Alerts / Month | SOC Alert Investigation | https://letsdefend.io/ |
+| TryHackMe | ✅ Partial | Guided Blue Team Labs | https://tryhackme.com/ |
+| CyberDefenders | ✅ Yes | DFIR & Threat Hunting | https://cyberdefenders.org/blue-team-labs/ |
+| Blue Team Labs Online | ✅ Yes | Investigation Challenges | https://blueteamlabs.online/ |
+| Security Onion | ✅ Yes | Home SOC Platform | https://github.com/Security-Onion-Solutions/securityonion |
+| Wazuh | ✅ Yes | SIEM + XDR | https://documentation.wazuh.com/current/quickstart.html |
+| DetectionLab | ✅ Yes | Active Directory Lab | https://github.com/clong/DetectionLab |
+| Splunk BOTS | ✅ Yes | Splunk Hunting Dataset | https://github.com/splunk/botsv3 |
+
+---
+
+# 🎯 What You'll Practice
+
+✅ Alert Triage
+
+✅ IOC Analysis
+
+✅ Windows Log Investigation
+
+✅ Linux Log Investigation
+
+✅ PCAP Analysis
+
+✅ Malware Analysis
+
+✅ Threat Hunting
+
+✅ Incident Response
+
+✅ Detection Engineering
+
+---
+
+# 💡 Recommended Learning Order
+
+```text
+1️⃣ TryHackMe
+      ↓
+2️⃣ LetsDefend
+      ↓
+3️⃣ CyberDefenders
+      ↓
+4️⃣ BTLO
+      ↓
+5️⃣ DetectionLab
+      ↓
+6️⃣ Wazuh
+      ↓
+7️⃣ Security Onion
+```
+
+---
+
+# 🧠 Progress Tracker
+
+| Phase | Status |
+|--------|--------|
+| Linux Fundamentals | ⬜ |
+| Networking Fundamentals | ⬜ |
+| Security Fundamentals | ⬜ |
+| SIEM | ⬜ |
+| Windows Logs | ⬜ |
+| Linux Logs | ⬜ |
+| Threat Hunting | ⬜ |
+| Incident Response | ⬜ |
+| Home Lab | ⬜ |
+| Portfolio | ⬜ |
+
+---
+
+# 🚀 TryHackMe Learning Path
+
+> Complete these rooms in order.
+>
+> Tick each checkbox as you finish a room.
+
+---
+
+## 🟢 Phase 1 — Foundations
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | SOC Role in Blue Team | SOC Fundamentals | https://tryhackme.com/room/socroleinblueteam |
+| ⬜ | Defensive Security Intro | Blue Team Basics | https://tryhackme.com/room/defensivesecurityintroqW |
+| ⬜ | Intro to Logs | Log Analysis | https://tryhackme.com/room/introtologs |
+| ⬜ | Introduction to SIEM | SIEM Fundamentals | https://tryhackme.com/room/introtosiem |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Understanding the role of a SOC Analyst
+- Reading and understanding logs
+- SIEM fundamentals
+- Blue Team workflow
+
+---
+
+## 🟢 Phase 2 — SIEM
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Splunk: Exploring SPL | Splunk Search Language | https://tryhackme.com/room/splunkexploringspl |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- SPL Queries
+- Searching Logs
+- Filtering Events
+- Basic Detection
+
+---
+
+## 🟡 Phase 3 — Windows Log Analysis
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Windows Logging for SOC | Windows Event Logs | https://tryhackme.com/room/windowsloggingforsoc |
+| ⬜ | Investigating Windows | Windows Investigation | https://tryhackme.com/room/investigatingwindows |
+| ⬜ | Investigating Windows 2.0 | Advanced Investigation | https://tryhackme.com/room/investigatingwindows2 |
+| ⬜ | Windows Threat Detection 1 | Detection Engineering | https://tryhackme.com/room/windowsthreatdetection1 |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Event Viewer
+- Event IDs
+- Windows Security Logs
+- PowerShell Logs
+- Sysmon
+- Process Investigation
+
+---
+
+## 🟡 Phase 4 — Linux Log Analysis
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Linux Logging for SOC | Linux Logs | https://tryhackme.com/room/linuxloggingforsoc |
+| ⬜ | Linux Threat Detection 1 | Threat Detection | https://tryhackme.com/room/linuxthreatdetection1 |
+| ⬜ | Linux Server Forensics | Linux DFIR | https://tryhackme.com/room/linuxserverforensics |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Syslog
+- Authentication Logs
+- Process Logs
+- Service Logs
+- Linux Investigation
+
+---
+
+## 🌐 Phase 5 — Network Traffic Analysis
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Network Traffic Analysis Basics | Packet Analysis | https://tryhackme.com/room/networktrafficbasics |
+| ⬜ | TShark | CLI Packet Analysis | https://tryhackme.com/room/tshark |
+| ⬜ | Network Security Essentials | Network Security | https://tryhackme.com/room/networksecurityessentials |
+| ⬜ | Network Discovery Detection | Detection | https://tryhackme.com/room/networkdiscoverydetection |
+| ⬜ | h4cked | Real Investigation | https://tryhackme.com/room/h4cked |
+| ⬜ | Event Horizon | SOC Investigation | https://tryhackme.com/room/eventhorizonroom |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Wireshark
+- Packet Analysis
+- Network IOC Analysis
+- DNS Investigation
+- HTTP Analysis
+- Lateral Movement Detection
+
+---
+
+## 💻 Phase 6 — Endpoint Detection & Response (EDR)
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Introduction to EDR | Endpoint Security | https://tryhackme.com/room/introductiontoedrs |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Endpoint Monitoring
+- EDR Concepts
+- Alert Investigation
+- Endpoint Telemetry
+
+---
+
+## 🔍 Phase 7 — Threat Hunting & Malware Analysis
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | Threat Hunting with YARA | YARA Rules | https://tryhackme.com/room/threathuntingwithyara |
+| ⬜ | File and Hash Threat Intel | IOC Analysis | https://tryhackme.com/room/fileandhashthreatintel |
+| ⬜ | Volt Typhoon | APT Detection | https://tryhackme.com/room/volttyphoon |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- YARA
+- IOC Analysis
+- Hash Analysis
+- Threat Intelligence
+- APT Investigation
+
+---
+
+## 🚨 Phase 8 — Incident Response
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | IR Playbooks | Incident Response | https://tryhackme.com/room/irplaybooks |
+| ⬜ | SOC L1 Alert Reporting | Reporting | https://tryhackme.com/room/socl1alertreporting |
+| ⬜ | SOC L1 Alert Triage | Alert Triage | https://tryhackme.com/room/socl1alerttriage |
+| ⬜ | Identification & Scoping | Incident Handling | https://tryhackme.com/room/identificationandscoping |
+| ⬜ | AppSec IR | Web Incident Response | https://tryhackme.com/room/appsecir |
+| ⬜ | Detecting Web Attacks | Web Security | https://tryhackme.com/room/detectingwebattacks |
+| ⬜ | Chaining Vulnerabilities | Attack Chains | https://tryhackme.com/room/chainingvulnerabilitiesZp |
+
+---
+
+### 🎯 Skills You'll Gain
+
+- Incident Response Lifecycle
+- Alert Prioritization
+- Root Cause Analysis
+- Reporting
+- Scoping
+- Web Attack Detection
+
+---
+
+## 🏆 Final Capstone Challenge
+
+| Status | Room | Skills | Link |
+|--------|------|--------|------|
+| ⬜ | CCT2019 | End-to-End SOC Investigation | https://tryhackme.com/room/cct2019 |
+
+---
+
+# 📊 Overall Progress
+
+| Category | Rooms |
+|----------|------:|
+| 🟢 Foundations | 4 |
+| 📊 SIEM | 1 |
+| 🖥️ Windows Investigation | 4 |
+| 🐧 Linux Investigation | 3 |
+| 🌐 Network Analysis | 6 |
+| 💻 Endpoint Detection | 1 |
+| 🔍 Threat Hunting | 3 |
+| 🚨 Incident Response | 7 |
+| 🏆 Capstone | 1 |
+
+## ✅ Total TryHackMe Rooms: **30**
+
+> 💡 **Tip:** Don't just complete the rooms—take notes, write investigation reports, save screenshots, and publish your findings on GitHub or LinkedIn. A strong portfolio often stands out more than simply having completion badges.
+
+---
+
+# 📚 Learning Platforms
+
+Build a strong theoretical foundation alongside your hands-on practice.
+
+| Platform | Description | Link |
+|----------|-------------|------|
+| Cybrary | Free Cybersecurity Courses | https://www.cybrary.it/ |
+| Cisco NetAcad – Introduction to Cybersecurity | Beginner Course | https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity |
+| Cisco NetAcad – CyberOps Associate | SOC Analyst Preparation | https://www.netacad.com/courses/cyberops-associate |
+| Professor Messer Security+ | Complete Security+ Course | https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/ |
+| Professor Messer Network+ | Complete Network+ Course | https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-comptia-network-plus-course/ |
+| MITRE ATT&CK | ATT&CK Framework | https://attack.mitre.org/ |
+| ATT&CK Navigator | ATT&CK Visualizer | https://mitre-attack.github.io/attack-navigator/ |
+
+---
+
+# 🗂️ Practice Logs & Datasets
+
+Practice with real-world attack data.
+
+| Dataset | Description | Link |
+|----------|-------------|------|
+| Malware Traffic Analysis | Real PCAP Files | https://www.malware-traffic-analysis.net/ |
+| JPCERT EVTX ATTACK SAMPLES | Windows Event Logs | https://github.com/JPCERTCC/EVTX-ATTACK-SAMPLES |
+| Splunk BOTS v3 | Enterprise Attack Dataset | https://github.com/splunk/botsv3 |
+| DetectionLab | Active Directory Detection Lab | https://github.com/clong/DetectionLab |
+
+---
+
+# 📝 Blogs & Write-ups
+
+Learn how professionals investigate incidents.
+
+| Blog | Link |
+|------|------|
+| LetsDefend Blog | https://letsdefend.io/blog |
+| CyberDefenders Blog | https://cyberdefenders.org/blog/ |
+
+---
+
+# 🛠️ Build Your Own Home SOC Lab
+
+After learning the fundamentals, build your own Blue Team environment.
+
+## Option 1 — Wazuh
+
+- Install Wazuh Server
+- Install Windows Agent
+- Install Linux Agent
+- Generate Test Alerts
+- Investigate Events
+
+Documentation:
+
+https://documentation.wazuh.com/current/quickstart.html
+
+---
+
+## Option 2 — Security Onion
+
+- Install Security Onion
+- Import PCAP Files
+- Analyze Zeek Logs
+- Analyze Suricata Alerts
+- Create Dashboards
+
+Repository:
+
+https://github.com/Security-Onion-Solutions/securityonion
+
+---
+
+## Option 3 — DetectionLab
+
+- Active Directory
+- Splunk
+- Sysmon
+- Windows Domain
+- Attack Simulation
+
+Repository:
+
+https://github.com/clong/DetectionLab
+
+---
+
+# 💼 Portfolio Projects
+
+Don't just complete labs—show evidence of your skills.
+
+## Beginner
+
+- [ ] Linux Command Notes
+- [ ] Networking Notes
+- [ ] Windows Event Log Investigation
+- [ ] Linux Log Investigation
+- [ ] Wireshark Analysis
+
+---
+
+## Intermediate
+
+- [ ] IOC Investigation Report
+- [ ] Phishing Investigation
+- [ ] Malware Investigation
+- [ ] Splunk Dashboard
+- [ ] Sigma Rules
+- [ ] YARA Rules
+- [ ] MITRE ATT&CK Mapping
+
+---
+
+## Advanced
+
+- [ ] Build DetectionLab
+- [ ] Deploy Wazuh
+- [ ] Deploy Security Onion
+- [ ] Threat Hunting Report
+- [ ] Incident Response Report
+- [ ] Detection Engineering Project
+
+---
+
+# 📂 Recommended GitHub Repository Structure
+
+```text
+SOC-Analyst-Roadmap
+│
+├── Linux
+├── Networking
+├── TryHackMe
+├── LetsDefend
+├── CyberDefenders
+├── Splunk
+├── Wazuh
+├── Security-Onion
+├── DetectionLab
+├── Sigma
+├── YARA
+├── Incident-Reports
+├── Threat-Hunting
+├── PCAP-Analysis
+├── Malware-Analysis
+└── README.md
+```
+
+---
+
+# 🏆 Milestones
+
+## 🥉 Beginner
+
+- Linux Fundamentals
+- Networking Fundamentals
+- Security Fundamentals
+- 10 TryHackMe Rooms
+
+---
+
+## 🥈 Intermediate
+
+- 20+ TryHackMe Rooms
+- 30 LetsDefend Alerts
+- 10 CyberDefenders Challenges
+- Build Wazuh Lab
+
+---
+
+## 🥇 Advanced
+
+- Build DetectionLab
+- Security Onion Lab
+- Publish GitHub Portfolio
+- Publish LinkedIn Write-ups
+
+---
+
+# 📅 Suggested 24-Week Learning Plan
+
+| Weeks | Focus |
+|--------|-------|
+| 1–2 | Linux |
+| 3–4 | Networking |
+| 5 | Security+ Fundamentals |
+| 6–8 | SIEM |
+| 9–12 | Windows Logs |
+| 13–14 | Linux Logs |
+| 15–17 | Network Traffic Analysis |
+| 18–19 | Threat Hunting |
+| 20–21 | Incident Response |
+| 22–23 | Home Lab |
+| 24 | Portfolio & Interview Preparation |
+
+---
+
+# 🎯 SOC Analyst Job Readiness Checklist
+
+## Core Skills
+
+- [ ] Linux
+- [ ] Networking
+- [ ] Windows Event Logs
+- [ ] Linux Logs
+- [ ] Wireshark
+- [ ] Splunk
+- [ ] Wazuh
+- [ ] Security Onion
+- [ ] IOC Analysis
+- [ ] MITRE ATT&CK
+- [ ] Sigma Rules
+- [ ] YARA Rules
+- [ ] Threat Hunting
+- [ ] Incident Response
+
+---
+
+## Portfolio
+
+- [ ] GitHub Portfolio
+- [ ] Investigation Reports
+- [ ] Detection Rules
+- [ ] Dashboards
+- [ ] Home Lab
+- [ ] LinkedIn Posts
+
+---
+
+## Interview Preparation
+
+You should be able to confidently explain:
+
+- Windows Event IDs
+- Authentication Logs
+- PowerShell Logs
+- Sysmon
+- SIEM Workflow
+- Alert Triage
+- MITRE ATT&CK
+- IOC Investigation
+- Incident Response Lifecycle
+- Threat Hunting Methodology
+
+---
+
+# 🌟 Contributing
+
+Contributions are welcome!
+
+If you find:
+
+- A broken link
+- An outdated resource
+- A better free learning platform
+- A new Blue Team lab
+
+Feel free to open a Pull Request or create an Issue.
+
+---
+
+# ❤️ Support
+
+If this repository helped you:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+📢 Share it with other aspiring SOC Analysts
+
+Together, we can make cybersecurity education more accessible.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and share it for educational purposes.
+
+---
+
+<div align="center">
+
+## 🛡️ Happy Hunting!
+
+**Learn • Practice • Investigate • Detect • Defend**
+
+Made with ❤️ for the Cybersecurity Community.
+
+</div>
