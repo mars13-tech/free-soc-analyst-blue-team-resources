@@ -1,3 +1,4 @@
+![SOC Analyst Banner](assets/banner.png)
 # 🛡️ SOC Analyst & Blue Team Roadmap (100% FREE)
 
 <div align="center">
