@@ -11,29 +11,13 @@
 Learn Linux, Networking, SIEM, Threat Hunting, Incident Response, Digital Forensics, and Blue Team Operations without spending a single dollar.
 
 
-
-![Free](https://img.shields.io/badge/Cost-100%25%20Free-brightgreen?style=for-the-badge)
-
-
-
-
-![Role](https://img.shields.io/badge/Role-SOC%20Analyst-blue?style=for-the-badge)
-
-
-
-
-![Focus](https://img.shields.io/badge/Focus-Blue%20Team-0A66C2?style=for-the-badge)
-
-
-
-
-![Beginner](https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge)
-
-
-
-
-![Updated](https://img.shields.io/badge/Updated-July%202026-orange?style=for-the-badge)
-
+<p align="center">
+<img src="https://img.shields.io/badge/Cost-100%25%20Free-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Role-SOC%20Analyst-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-Blue%20Team-0A66C2?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Updated-July%202026-orange?style=for-the-badge" />
+</p>
 
 
 ⭐ Star this repository if it helps you.
