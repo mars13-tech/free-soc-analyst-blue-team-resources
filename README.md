@@ -716,4 +716,212 @@ Don't just complete labs — show evidence of your skills.
 - [ ] Malware Investigation
 - [ ] Splunk or ELK Dashboard
 - [ ] Sigma Rules
-- [ ] YARA 
+- [ ] YARA
+- [ ] MITRE ATT&CK Mapping
+
+---
+
+## Advanced
+
+- [ ] Build DetectionLab
+- [ ] Deploy Wazuh or Elastic SIEM
+- [ ] Deploy Security Onion
+- [ ] Threat Hunting Report
+- [ ] Incident Response Report
+- [ ] Detection Engineering Project
+- [ ] GRC Portfolio
+
+---
+
+# 📂 Recommended GitHub Repository Structure
+
+```text
+SOC-Analyst-Portfolio
+│
+├── Linux
+├── Networking
+├── TryHackMe
+├── LetsDefend
+├── CyberDefenders
+├── Splunk
+├── Elastic-SIEM
+├── Wazuh
+├── Security-Onion
+├── DetectionLab
+├── Sigma
+├── YARA
+├── Incident-Reports
+├── Threat-Hunting
+├── PCAP-Analysis
+├── Malware-Analysis
+├── GRC
+└── README.md
+```
+
+---
+
+# 🏆 Milestones
+
+## 🥉 Beginner
+
+- Linux Fundamentals
+- Networking Fundamentals
+- Security Fundamentals
+- 10 TryHackMe Rooms
+
+---
+
+## 🥈 Intermediate
+
+- 20+ TryHackMe Rooms
+- 30 LetsDefend Alerts
+- 10 CyberDefenders Challenges
+- Build Wazuh or Elastic SIEM Lab
+
+---
+
+## 🥇 Advanced
+
+- Build DetectionLab
+- Security Onion Lab
+- Splunk SOC Detection Project
+- Publish GitHub Portfolio
+- Publish LinkedIn Write-ups
+- GRC Portfolio
+
+---
+
+# 📅 Suggested 24-Week Learning Plan
+
+| Weeks | Focus |
+|---|---|
+| 1–2 | Linux |
+| 3–4 | Networking |
+| 5 | Security Fundamentals |
+| 6–8 | SIEM — Elastic + Splunk |
+| 9–12 | Windows Logs |
+| 13–14 | Linux Logs |
+| 15–17 | Network Traffic Analysis |
+| 18–19 | Threat Hunting |
+| 20–21 | Incident Response |
+| 22–23 | Home Lab |
+| 24 | Portfolio & Interview Preparation |
+
+---
+
+# 🎯 SOC Analyst Job Readiness Checklist
+
+## Core Skills
+
+- [ ] Linux
+- [ ] Networking
+- [ ] Windows Event Logs
+- [ ] Linux Logs
+- [ ] Wireshark
+- [ ] Splunk
+- [ ] Elastic SIEM
+- [ ] Wazuh
+- [ ] Security Onion
+- [ ] IOC Analysis
+- [ ] MITRE ATT&CK
+- [ ] Sigma Rules
+- [ ] YARA Rules
+- [ ] Threat Hunting
+- [ ] Incident Response
+- [ ] GRC Awareness
+
+---
+
+## Portfolio
+
+- [ ] GitHub Portfolio
+- [ ] Investigation Reports
+- [ ] Detection Rules
+- [ ] Dashboards
+- [ ] Home Lab
+- [ ] LinkedIn Posts
+- [ ] GRC Portfolio
+
+---
+
+## Interview Preparation
+
+You should be able to confidently explain:
+
+- Windows Event IDs
+- Authentication Logs
+- PowerShell Logs
+- Sysmon
+- SIEM Workflow
+- Alert Triage
+- MITRE ATT&CK
+- IOC Investigation
+- Incident Response Lifecycle
+- Threat Hunting Methodology
+- NIST CSF Functions
+- GRC basics
+
+---
+
+# 🌟 Contributing
+
+Contributions are welcome!
+
+If you find:
+
+- A broken link
+- An outdated resource
+- A better free learning platform
+- A new Blue Team lab
+
+Feel free to open a Pull Request or create an Issue.
+
+---
+
+# ❤️ Support
+
+If this repository helped you:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+📢 Share it with other aspiring SOC Analysts
+
+Together, we can make cybersecurity education more accessible.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and share it for educational purposes.
+
+---
+
+# 👤 Author
+
+**Karthikeyan**
+Cybersecurity Engineering Student | Blue Team | SOC Analyst in the Making
+
+🔗 [LinkedIn](https://www.linkedin.com/in/karthi-keyan-9042862bb)
+🐙 [GitHub](https://github.com/mars13-tech)
+
+> Check out my SOC lab projects:
+> - [home-soc-lab](https://github.com/mars13-tech/home-soc-lab) — Elastic SIEM detection lab — detection rules, KQL hunting, 7 investigations
+> - [splunk-soc-detection](https://github.com/mars13-tech/splunk-soc-detection) — Full brute force + lateral movement detection on Splunk
+> - [splunk-lab](https://github.com/mars13-tech/splunk-lab) — Splunk Enterprise home lab — SPL to detection engineering
+> - [soc-grc-portfolio](https://github.com/mars13-tech/soc-grc-portfolio) — GRC portfolio — NIST CSF, SOC2, DPDPA 2023
+
+---
+
+<div align="center">
+
+## 🛡️ Happy Hunting!
+
+**Learn • Practice • Investigate • Detect • Defend**
+
+Made with ❤️ for the Cybersecurity Community.
+
+</div>
