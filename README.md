@@ -11,6 +11,8 @@
 Learn Linux, Networking, SIEM, Threat Hunting, Incident Response, Digital Forensics, and Blue Team Operations without spending a single dollar.
 
 
+
+
 <p align="center">
 <img src="https://img.shields.io/badge/Cost-100%25%20Free-brightgreen?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Role-SOC%20Analyst-blue?style=for-the-badge" />
@@ -18,6 +20,8 @@ Learn Linux, Networking, SIEM, Threat Hunting, Incident Response, Digital Forens
 <img src="https://img.shields.io/badge/Beginner-Friendly-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Updated-July%202026-orange?style=for-the-badge" />
 </p>
+
+
 
 
 ⭐ Star this repository if it helps you.
